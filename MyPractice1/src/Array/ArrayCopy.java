@@ -1,5 +1,7 @@
 package Array;
 
+import java.util.Arrays;
+
 public class ArrayCopy {
 	
 	
@@ -12,6 +14,8 @@ public static void main(String[] args) {
 			b[i]=a[i];
 			
 		}
+		
+		System.out.println(Arrays.toString(b));
 		for(int x:b) {
 			System.out.println(x);
 		}

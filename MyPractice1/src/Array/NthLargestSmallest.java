@@ -12,7 +12,7 @@ public class NthLargestSmallest {
 				
 		{
 			if(a[i]>a[j]) //from larger number to smaller one sorting
-				//if you want smaller to larger use if(a[i]>a[j])
+				//if you want smaller to larger use if(a[i]<a[j])
 			{
 				temp=a[i];
 				a[i]=a[j];

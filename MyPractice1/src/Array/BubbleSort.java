@@ -1,10 +1,12 @@
 package Array;
 
+import java.util.Arrays;
+
 public class BubbleSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 int a[]={23,56,7,9};
+System.out.println("Unsorted array "+Arrays.toString(a));
 int temp;
 for(int i=0;i<a.length;i++)
 {
@@ -20,6 +22,7 @@ for(int i=0;i<a.length;i++)
 	}
 }
 	}
+System.out.println("Sorted array "+Arrays.toString(a));
 for(int x:a)
 {
 	System.out.println(x);

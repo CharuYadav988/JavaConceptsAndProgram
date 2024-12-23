@@ -16,7 +16,7 @@ public class ArrayMethod {
 		System.out.println(Arrays.equals(a,b));
 		//Arrays.toString(a) to print the array without for loop
 		System.out.println(Arrays.toString(a));
-		//Arrays.sort(c) it will sort the array in inscending order.
+		//Arrays.sort(c) it will sort the array in ascending order.
 		Arrays.sort(c);
 		for(int x:c)
 		{
