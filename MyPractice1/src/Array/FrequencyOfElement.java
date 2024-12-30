@@ -29,7 +29,10 @@ public class FrequencyOfElement {
 	   // for ex we have arr={1,1,1,2,2,3,3,3} so here once we got 1||3 so loop should start from
 	   // 3 index so,count-1;3-1=2;i+=2;0+2
 	   i+=count-1; 
+	   
+	   
    }
+   
 	}
 
 }

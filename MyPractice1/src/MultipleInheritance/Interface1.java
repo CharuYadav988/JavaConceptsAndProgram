@@ -12,5 +12,7 @@ public interface Interface1 {
 		//Static method require definition and declaration both at interface level		
 		System.out.println("Default method of interface1");
 	}
+	
+	
 
 }

@@ -1,13 +1,13 @@
-package Array;
+package JavaAssignments;
 
 import java.util.Arrays;
 
-public class RemoveDuplicatesfromArray {
+public class Assignment12 {
 
 	public static void main(String[] args) {
-		int arr[]= {3,4,5,6,3,4,5,6,9};
+		int arr[]= {2,3,4,2};
 		int j=0;
-		Arrays.sort(arr);  
+		Arrays.sort(arr); //{2,2,3,4}
 		
 		for(int i=0;i<arr.length-1;i++)
 		{
@@ -22,6 +22,7 @@ public class RemoveDuplicatesfromArray {
 		{
 			System.out.println(arr[k]);
 			}
+			
 	}
 
 }

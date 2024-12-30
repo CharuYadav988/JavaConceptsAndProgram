@@ -2,6 +2,7 @@ package ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class ArrayListMethod {
 
@@ -31,6 +32,12 @@ public class ArrayListMethod {
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
+		}
+		System.out.println("Iterate through list iterator");
+		ListIterator<Integer> li=arr.listIterator();
+		while(li.hasPrevious())
+		{
+			System.out.println(li.previous());
 		}
 	}
 
